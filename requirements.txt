@@ -10,4 +10,4 @@ sentencepiece
 
 
 # genaivenv :v env
-# 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    :  token genai
+# set HF_TOKEN=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    :  token genai

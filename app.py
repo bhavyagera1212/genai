@@ -1,5 +1,4 @@
 # app.py
-
 import streamlit as st
 import torch
 import os
@@ -10,8 +9,8 @@ from PIL import Image
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Punjabi Sentiment to Image GenAI",
-    page_icon="🎨",
+    page_title="GEN AI PROJECT 102397001",
+    page_icon="📊",
     layout="centered",
     initial_sidebar_state="auto",
 )
@@ -73,7 +72,12 @@ def create_image_prompt(punjabi_text, sentiment_label, translator):
     return full_prompt, negative_prompt, english_translation
 
 # --- Main App Interface ---
-st.title("🎨 Punjabi Sentiment-to-Image Generator")
+st.title("📊 Punjabi Sentiment-to-Image Generator")
+st.write("UCS748")
+st.write("Bhavya Gera")
+st.write("102397001")
+st.write("4Q17")
+
 st.write(
     "This app analyzes the sentiment of a Punjabi sentence and generates an image "
     "that visually represents its meaning and emotion using AI."
