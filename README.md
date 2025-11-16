@@ -50,8 +50,6 @@ The system is built with a modern and interactive **Gradio web interface**, ensu
 
 ---
 
-### **1. Clone the Repository**
-
 ```bash
 git clone https://github.com/your-username/punjabi_genai_project.git
 cd punjabi_genai_project
