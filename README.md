@@ -51,12 +51,12 @@ The system is built with a modern and interactive **Gradio web interface**, ensu
 ---
 
 ```bash
-git clone https://github.com/your-username/punjabi_genai_project.git
-cd punjabi_genai_project
-
+# commands to run the system
 
 conda create --name genai_new python=3.10 -y
 conda activate genai_new
+
+pip install -r requirements
 
 pip install gradio transformers sentencepiece huggingface_hub Pillow torch pandas
 
