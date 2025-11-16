@@ -62,5 +62,5 @@ pip install gradio transformers sentencepiece huggingface_hub Pillow torch panda
 
 set HF_TOKEN=hf_your_token_here
 
-Run the Gradio application:
+#Run the Gradio application:
 python app.py
