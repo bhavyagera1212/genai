@@ -8,6 +8,3 @@ transformers>=4.40
 accelerate>=0.30
 sentencepiece
 
-
-# genaivenv :v env
-# set HF_TOKEN=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    :  token genai
